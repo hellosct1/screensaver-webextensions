@@ -1,0 +1,42 @@
+{
+	"name": "Screen saver",
+	"manifest_version": 2,
+	"description": "Screen saver in WebExtensions offers three different animations inspired by the demoscene, one of which you can customize from the settings screen",
+	"version": "0.90",
+	"author": "Christophe Villeneuve",
+	"icons": {
+		"48": "icons/screen-48.png",
+		"96": "icons/screen-96.png",
+		"128": "icons/screen-128.png"
+	},
+	"homepage_url": "https://github.com/hellosct1",
+	"background": {
+		"scripts": [
+			"background/loader.js",
+			"background/loader_anim.js"
+		]
+	},
+	"browser_action": {
+		"default_title": "SCREEN SAVER",
+		"default_icon": "icons/icon.png"
+	},
+	"page_action": {
+		"default_title": "Screen Saver Settings",
+		"default_icon": "icons/icon2.png",
+		"default_popup": "page/popup.html"
+	},
+	"options_ui": {
+		"page": "options/options.html",
+		"browser_style": true
+	},
+	"web_accessible_resources": [
+		"resources/*"
+	],
+	"permissions": [
+		"<all_urls>",
+		"activeTab",
+		"alarms",
+		"tabs",
+		"storage"
+	]
+}

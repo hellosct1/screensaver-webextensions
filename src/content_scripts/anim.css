@@ -1,0 +1,63 @@
+body {
+	background: black;
+	margin: 0;
+	padding: 0;
+}
+
+#canvas {
+	position: absolute;
+	height: 100vh;
+	width: 100vw;
+	display: block;
+	background: black;
+}
+
+.bottom_bar, .bottom_bar li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	float: left;
+	height: 35px;
+	line-height: 35px;
+}
+
+.bottom_bar {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	left: 0;
+}
+
+.bottom_bar, .bottom_bar a {
+	color: white;
+}
+
+.bottom_bar a {
+	text-decoration: none;
+	padding: 3px;
+}
+
+.bottom_bar li.newtab {
+	background: #111;
+}
+
+.bottom_bar li.newtab a {
+	display: block;
+	width: 30px;
+	height: 30px;
+	background: url("images/grid.png") no-repeat center;
+}
+
+.bottom_bar li.time {
+	background: #222;
+	font-family: arial;
+	font-size: 20pt;
+	padding: 0 10px;
+}
+
+.ampm {
+	text-transform: uppercase;
+	font-size: 70%;
+	padding-left: 3px;
+	color: #ccc;
+}

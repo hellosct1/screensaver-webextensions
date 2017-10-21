@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="options.css" />
+</head>
+
+<body>
+	<form>
+		<label>Effect : </label> <select id="effet">
+			<option value="windows">Windows</option>
+			<option value="addons" selected>Add-ons</option>
+			<option value="oldschool">Old school</option>
+		</select> &nbsp; <label>Full screen <input type="checkbox"
+			id="fullscreen" /></label> <br />
+		<br />
+		<div>
+			<strong>Setting for the screen Old School</strong><br />
+			<br /> <label>First text : </label> <input type="text" id="textanim">
+			<br /> <label>Second text : </label> <input type="text"
+				id="secondtext"> <br />
+			<br /> <label>View sprite Atari<input type="checkbox"
+				id="sprite" /></label> <br />
+			<br /> <label>Message</label><br />
+			<textarea name="textarea" id="message" rows="10" cols="50"> </textarea>
+		</div>
+		<br />
+		<br />
+		<button type="submit">Save</button>
+	</form>
+	<script src="options.js"></script>
+</body>
+</html>
+
