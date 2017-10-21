@@ -11,9 +11,9 @@ Pour cela, un seul bouton, représenté par une icône, permet de lancer l’ani
 Pour choisir une autre animation, vous passerez par l’écran des paramètres.
  
 
-## L'ecran des paramètres
+## L'écran des paramètres
 
-![Screenshot](screenshots/settings.png | width=400 "Settings")
+![Screenshot](screenshots/settings.png "Settings")
 
 
 
@@ -24,11 +24,11 @@ Suivant l'effet que vous avez choisi, l'animation affichée sera différente.
 ### Ecran Windows
 
 Cet écran est inspiré de l'animation disponible sous windows 95 et +, réalisé par Microsoft.
-![Screenshot](screenshots/windows.png | width=400  "ScreenSaver webExtensions : effect Windows")
+![Screenshot](screenshots/windows.png "ScreenSaver webExtensions : effect Windows")
 
 ### Ecran Add-ons
 Cet écran est un clin d'œil à l'équipe des extensions de Mozilla, que je salue.
-![Screenshot](screenshots/addons.png | width=400  "ScreenSaver webExtensions : effect Addons")
+![Screenshot](screenshots/addons.png "ScreenSaver webExtensions : effect Addons")
 
 ### Ecran Old School
 Cet écran est pour rappeler que le groupe de démomaker SECTOR ONE est toujours présent et actif depuis sa création à l'époque des ordinateurs ATARI. 
