@@ -44,22 +44,27 @@ Cet écran est pour rappeler que le groupe de démomaker SECTOR ONE est toujours
 Pour utiliser cette extension, il faut un navigateur compatible : 
 
 * Firefox 
+
 Compatible avec les versions 57 et +
 
 * Chrome / Chromium
+
 En cours de portage. L'extension sera disponible prochainement
 
 * Opera
+
 En cours de portage. L'extension sera disponible prochainement
 
 * Edge 
+
 En cours de portage. L'extension sera disponible prochainement
 
 
 
 ## Crédit
 (c) Christophe Villeneuve aka Hello / Sector One
+
 Réalisé en 2017
 
-Pour marquer les 5 ans d'ouvertures aux journées du patrimoine, nous avons réalisé une vidéo des bureaux de Mozilla qui se trouve dans l'hotel ... (monument classé)
+
 
