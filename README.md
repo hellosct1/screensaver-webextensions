@@ -1,38 +1,38 @@
 # SreenSaver WebExtensions
 ## Introduction
-L'économiseur d'écran de WebExtensions propose trois différentes animations, inspirées de l’univers de la demoscène et l’une d’elle, vous allez pouvoir là personnaliser à partir de l'écran des paramétrages.
+L'économiseur d'écran de WebExtensions propose trois différentes animations, inspirées de l’univers de la démoscène et l’une d’elle, vous allez pouvoir la personnaliser à partir de l'écran des paramétrages.
 
 
 ## But
-Le but de l’extension permet d’afficher un écran animé à l'importe quel moment, à partir de votre navigateur Firefox sans avoir à verrouiller votre ordinateur.
+Le but de l’extension est affiché un écran animé à l'importe quel moment, à partir de votre navigateur Firefox sans avoir à verrouiller votre ordinateur.
 
-Pour cela, un seul bouton, représenté par une icône  permet de lancer l’animation
+Pour cela, un seul bouton, représenté par une icône, permet de lancer l’animation.
 
-Pour choisir une autre animation, vous passerez par l’écran de paramétrages
+Pour choisir une autre animation, vous passerez par l’écran des paramètres.
  
 
-## L'ecran de paramètres
+## L'ecran des paramètres
 
-![addon screenshot](screenshots/settings.png "Settings")
+![Screenshot](screenshots/settings.png | width=400 "Settings")
 
 
 
 ## Le résultat
 
-Suivant l'effet que vous avez choisir, l'animation affichée sera différente.
+Suivant l'effet que vous avez choisi, l'animation affichée sera différente.
 
 ### Ecran Windows
 
-Cet écran est inspiré de l'animation disponible sous windows 95 et +, réalisé par Microsoft
-![addon screenshot](screenshots/windows.png "Windows")
+Cet écran est inspiré de l'animation disponible sous windows 95 et +, réalisé par Microsoft.
+![Screenshot](screenshots/windows.png | width=400  "ScreenSaver webExtensions : effect Windows")
 
 ### Ecran Add-ons
-Cet écran est un clin d'oeil à l'équipe des extensions de Mozilla, dont je salue
-![addon screenshot](screenshots/addons.png "Addons")
+Cet écran est un clin d'œil à l'équipe des extensions de Mozilla, que je salue.
+![Screenshot](screenshots/addons.png | width=400  "ScreenSaver webExtensions : effect Addons")
 
 ### Ecran Old School
 Cet écran est pour rappeler que le groupe de démomaker SECTOR ONE est toujours présent et actif depuis sa création à l'époque des ordinateurs ATARI. 
-![addon screenshot](screenshots/oldschool.png "Oldschool")
+![Screenshot](screenshots/oldschool.png "ScreenSaver webExtensions : effect Oldschool")
 
 
 ## Ecran personnalisable
@@ -41,18 +41,18 @@ Cet écran est pour rappeler que le groupe de démomaker SECTOR ONE est toujours
 
 
 ## Configuration
-Pour utiliser cette extension, il faut un navigateur compatible
+Pour utiliser cette extension, il faut un navigateur compatible : 
 
-### Firefox 
+* Firefox 
 Compatible avec les versions 57 et +
 
-### Chrome / Chromium
+* Chrome / Chromium
 En cours de portage. L'extension sera disponible prochainement
 
-### Opera
+* Opera
 En cours de portage. L'extension sera disponible prochainement
 
-### Edge 
+* Edge 
 En cours de portage. L'extension sera disponible prochainement
 
 
@@ -61,5 +61,5 @@ En cours de portage. L'extension sera disponible prochainement
 (c) Christophe Villeneuve aka Hello / Sector One
 Réalisé en 2017
 
-
+Pour marquer les 5 ans d'ouvertures aux journées du patrimoine, nous avons réalisé une vidéo des bureaux de Mozilla qui se trouve dans l'hotel ... (monument classé)
 
