@@ -65,7 +65,7 @@ When you click on the icon ![Screenshot](screenshots/icon2.png "icône pour acc�
 Depending on the effect you chose, the displayed animation will be different.
 
 ### Windows screen
-Cet écran est inspiré de l'animation disponible sous windows 95 et +, réalisé par Microsoft.
+This screen is inspired by the animation available under Windows 95 and +, made by Microsoft.
 ![Screenshot](screenshots/windows.png "ScreenSaver webExtensions : effect Windows")
 
 ### Add-ons screen
