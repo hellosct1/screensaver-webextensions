@@ -1,22 +1,28 @@
 # SreenSaver WebExtensions
+
+Pour lire en Français : <a href='https://github.com/hellosct1/screensaver-webextensions/blob/master/README-FR.md'>cliquez ici</a>
+
+
 ## Introduction
-L'économiseur d'écran de WebExtensions propose trois différentes animations, inspirées de l’univers de la démoscène et l’une d’elle, vous allez pouvoir la personnaliser à partir de l'écran des paramétrages.
+
+The "Screen Saver WebExtensions" offers three different animations, inspired of the universe demoscene and one of them, you will be able to customize it from the settings screen. 
 
 
-## But
-Le but de l’extension est affiché un écran animé à n'importe quel moment, à partir de votre navigateur Firefox sans avoir à verrouiller votre session.
+## Goal
 
-Pour cela, un seul bouton, représenté par une icône, ![Screenshot](screenshots/icon.png "icône pour lancer l'animation") pour lancer l’animation. Celui-ci se positionne dans la barre d'outils.
+The purpose of the extension is to display an animated screen at any time, from your Firefox browser without having to lock your session.
 
-Pour choisir une autre animation, vous passerez par l’écran des paramètres.
+For this, a single button, represented by an icon, ![Screenshot](screenshots/icon.png "icône pour lancer l'animation") to launch the animation. It is positioned in the toolbar.
+
+To choose a another animation, you will go through the settings screen.
 
 
-## L'écran des paramètres
-L'écran de configuration se décompose comme ceci : 
+## The settings screen
+The configuration screen breaks down like this:
 
-### Les effets
+### The effect
 
-L'extension propose 3 animations différentes : 
+The extension offers 3 different animations:
 
 * Windows 
 
@@ -24,102 +30,97 @@ L'extension propose 3 animations différentes :
 
 * Old school
 
-Le résultat de chaque écran est expliqué un peu plus bas
+The result of each screen is explained a little lower
 
  
 ### Fullscreen
-Le mode 'Fullscreen' fonctionne pour tous les trois effets ci-dessus. 
+The mode 'Fullscreen' works for all three effects above. 
 
-Pour voir ce mode, il faut suffit de cocher la case
+To see this mode, just check the box
 
 
-### Paramétrage de l'écran Old School
+### Setting the Old School Screen
 
-L'effet 'old school' offre plusieurs animations paramétrables
+The 'old school' effect offers several configurable animations
 
 ![Screenshot](screenshots/settings.png "Settings")
 
-Tout d'abord 2 champs textes et sont animés sous la forme de sprite
+First 2 text fields and are animated in the form of sprite
 
-Une image qui est par défaut affiché, dont vous pourrez cacher en décochant la case
+An image that is displayed by default, which you can hide by unchecking the box
 
-Le champ 'message' permet de taper votre propre texte. il se positionne en bas de l'écran  
+The 'message' field allows you to type your own text. it is positioned at the bottom of the screen
 
 
+## Address bar with a popup
+An additional icon is displayed after a few seconds on each page.
 
-## Barre d'adresse avec un popup
-Une icône supplémentaire est affichée après quelques secondes sur chaque page.
-
-Quand vous cliquez sur l'icône ![Screenshot](screenshots/icon2.png "icône pour accéder aux paramétrages"), vous obtenez un popup  avec quelques informations.   
+When you click on the icon ![Screenshot](screenshots/icon2.png "icône pour accéder aux paramétrages"), you get a popup with some information.   
 
 ![Screenshot](screenshots/about.png "About")
 
 
+## The result
 
-## Le résultat
+Depending on the effect you chose, the displayed animation will be different.
 
-Suivant l'effet que vous avez choisi, l'animation affichée sera différente.
-
-### Ecran Windows
-
+### Windows screen
 Cet écran est inspiré de l'animation disponible sous windows 95 et +, réalisé par Microsoft.
 ![Screenshot](screenshots/windows.png "ScreenSaver webExtensions : effect Windows")
 
-### Ecran Add-ons
-Cet écran est un clin d'œil à l'équipe des extensions de Mozilla, que je salue.
+### Add-ons screen
+This screen is a nod to the Mozilla Extensions team, whom I salute.
 ![Screenshot](screenshots/addons.png "ScreenSaver webExtensions : effect Addons")
 
-### Ecran Old School
-Cet écran est pour rappeler que le groupe de démomaker SECTOR ONE est toujours présent et actif depuis sa création à l'époque des ordinateurs ATARI. 
+### Old School screen
+This screen is to remind you that the group of demomaker SECTOR ONE is always present and active since its creation at the time of computers ATARI.
 ![Screenshot](screenshots/oldschool.png "ScreenSaver webExtensions : effect Oldschool")
 
 
-## Ecran personnalisable
+## Customizable screen
 
-L'écran personnalisable permet de modifier les animations de l'effet. 
+The customizable screen allows you to modify the animations of the effect.
 
-Ici, nous avons choisi l'effet 'oldschool' avec les paramétrages suivant 
+Here, we chose the 'oldschool' effect with the following settings
 
 ![Screenshot](screenshots/demo1-setting.png "Ecran de configuration personnalisé")
 
-
-pour obtenir le résultat suivant
+to get the next result
 
 ![Screenshot](screenshots/demo1.png "exemple ScreenSaver webExtensions personnalisé")
 
 
 
-## Compatibilité
-Pour utiliser cette extension, il faut un navigateur compatible : 
+## Compatibility
+To use this extension, you need a compatible browser:
 
 * Firefox 
 
-Compatible avec les versions 57 et +
+Compatible with the version 57 and +
 
 * Chrome / Chromium
 
-En cours de portage. L'extension sera disponible prochainement
+In porting. The extension will be available soon
 
 * Opera
 
-En cours de portage. L'extension sera disponible prochainement
+In porting. The extension will be available soon
 
 * Edge 
 
-En cours de portage. L'extension sera disponible prochainement
+In porting. The extension will be available soon
 
 
 ## Bug : Fullscreen
 
-Quand vous cochez la case 'fullscreen', l'animation ne se déclange pas automatiquement en mode plein écran. Pour voir l'animation en plein écran, vous devez taper sur une touche de votre clavier. Il est possible de profiter pleinement du plein écran, en appuyant après sur la touche {F5} de votre clavier.
+When you check the 'fullscreen' box, the animation does not automatically switch to full screen mode. To see the animation in full screen, you must tap a key on your keyboard. You can take full advantage of the full screen by pressing the {F5} key on your keyboard.
 
-L'exécution automatique de l'effet est un soucis de l'API Fullscreen et de la configuration de la permission qui n'est pas complètement disponible.
+The automatic execution of the effect is a concern of the Fullscreen API and the configuration of the permission that is not completely available.
 
-
-## Crédit
+## Credit
 (c) Christophe Villeneuve aka Hello / Sector One
 
-Réalisé en 2017
+Released in 2017
 
 
 
