@@ -89,7 +89,7 @@ pour obtenir le résultat suivant
 
 
 
-## Configuration
+## Compatibilité
 Pour utiliser cette extension, il faut un navigateur compatible : 
 
 * Firefox 
