@@ -7,7 +7,13 @@ function onGot(item) {
 	if (typeof (item.settings) != 'undefined'
 			&& item.settings['fullscreen'] == true) {
 
-		document.addEventListener("TabOpen", function() {
+//		console.log('Welcome Fullscreen');
+		/*
+		 * TODO : Update addEventListener Bug permission Fullscreen in the
+		 * WebExtensions
+		 * 
+		 */
+		document.addEventListener("keypress", function() {
 			if (document.documentElement.requestFullScreen) {
 
 				document.documentElement.requestFullScreen();
@@ -18,8 +24,6 @@ function onGot(item) {
 
 				document.documentElement.webkitRequestFullScreen();
 			}
-
-			window.location.reload();
 
 		});
 
