@@ -14,10 +14,10 @@ var CATGIFS = "http://chilloutandwatchsomecatgifs.com/";
 /*
 Restart alarm for the currently active tab, whenever background.js is run.
 */
-var gettingActiveTab = browser.tabs.query({active: true, currentWindow: true});
-gettingActiveTab.then((tabs) => {
-  restartAlarm(tabs[0].id);
-});
+//var gettingActiveTab = browser.tabs.query({active: true, currentWindow: true});
+//gettingActiveTab.then((tabs) => {
+//  restartAlarm(tabs[0].id);
+//});
 
 /*
 Restart alarm for the currently active tab, whenever the user navigates.
