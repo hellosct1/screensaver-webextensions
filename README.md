@@ -6,14 +6,44 @@ L'économiseur d'écran de WebExtensions propose trois différentes animations, 
 ## But
 Le but de l’extension est affiché un écran animé à l'importe quel moment, à partir de votre navigateur Firefox sans avoir à verrouiller votre ordinateur.
 
-Pour cela, un seul bouton, représenté par une icône, permet de lancer l’animation.
+Pour cela, un seul bouton, représenté par une icône, ![Screenshot](screenshots/icon.png "icône pour lancer l'animation") pour lancer l’animation. Celui-ci se positionne dans la barre d'outils.
 
 Pour choisir une autre animation, vous passerez par l’écran des paramètres.
  
 
 ## L'écran des paramètres
+L'écran de configuration se décompose comme ceci : 
+
+### Les effets
+
+L'extension propose 3 animations différentes : 
+
+* Windows 
+
+* Add-ons
+
+* Old school
+
+Le résultat de chaque écran est expliqué un peu plus bas
+
+ 
+### Fullscreen
+Le mode 'Fullscreen' fonctionne pour tous les trois effets ci-dessus. 
+
+Pour voir ce mode, il faut suffit de cocher la case
+
+
+### Paramétrage de l'écran Old School
+
+L'effet 'old school' offre plusieurs animations paramétrables
 
 ![Screenshot](screenshots/settings.png "Settings")
+
+Tout d'abord 2 champs textes et sont animés sous la forme de sprite
+
+Une image qui est par défaut affiché, dont vous pourrez cacher en décochant la case
+
+Le champ 'message' permet de taper votre propre texte. il se positionne en bas de l'écran  
 
 
 
@@ -37,6 +67,16 @@ Cet écran est pour rappeler que le groupe de démomaker SECTOR ONE est toujours
 
 ## Ecran personnalisable
 
+L'écran personnalisable permet de modifier les animations de l'effet. 
+
+Ici, nous avons choisi l'effet 'oldschool' avec les paramétrages suivant 
+
+![Screenshot](screenshots/demo1-setting.png "Ecran de configuration personnalisé")
+
+
+pour obtenir le résultat suivant
+
+![Screenshot](screenshots/demo1.png "exemple ScreenSaver webExtensions personnalisé")
 
 
 
@@ -58,6 +98,12 @@ En cours de portage. L'extension sera disponible prochainement
 * Edge 
 
 En cours de portage. L'extension sera disponible prochainement
+
+
+## Bug
+Pour voir 
+
+Attention : Lorsque la case 'FULLSCREEN' est coché, 
 
 
 
