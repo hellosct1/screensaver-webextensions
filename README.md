@@ -52,6 +52,9 @@ Une icône supplémentaire est affichée après quelques secondes sur chaque pag
 
 Quand vous cliquez sur l'icône ![Screenshot](screenshots/icon2.png "icône pour accéder aux paramétrages"), vous obtenez un popup  avec quelques informations.   
 
+![Screenshot](screenshots/about.png "About")
+
+
 
 ## Le résultat
 
