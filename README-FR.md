@@ -110,9 +110,11 @@ En cours de portage. L'extension sera disponible prochainement
 
 ## Bug : Fullscreen
 
-Quand vous cochez la case 'fullscreen', l'animation ne se déclange pas automatiquement en mode plein écran. Pour voir l'animation en plein écran, vous devez taper sur une touche de votre clavier. Il est possible de profiter pleinement du plein écran, en appuyant après sur la touche {F5} de votre clavier.
+Quand vous cochez la case 'fullscreen', l'animation ne se déclange pas automatiquement en mode plein écran. Pour voir l'animation en plein écran, vous tapez sur une touche de votre clavier. 
 
-L'exécution automatique de l'effet est un soucis de l'API Fullscreen et de la configuration de la permission qui n'est pas complètement disponible.
+Toutefois, il est possible de profiter pleinement du plein écran, quand la case 'fullscreen' n'est pas coché en en appuyant sur la touche {F11} de votre clavier suivi de la touche {F5}.
+
+L'exécution automatique de l'effet 'fullscreen' n'est pas supporté avec l'API Fullscreen et dans les permissions des WebExtensions.
 
 
 ## Crédit

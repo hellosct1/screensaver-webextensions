@@ -16,7 +16,7 @@ function saveSettings(e) {
 	e.preventDefault();
 }
 
-function init(e) {
+function init() {
 
 	var scrollText = "I present to you the first --> SCREEN SAVER <-- Customizable in WebExtension, Released in 2017 by Christophe Villeneuve (Hello) of SECTOR ONE... Greetings all the demoscene, Atari and the Group SECTOR ONE";
 
@@ -26,11 +26,13 @@ function init(e) {
 	settings['effet'] = 'oldschool';
 	settings['sprite'] = 'true';
 	settings['fullscreen'] = 'false';
+
 	browser.storage.local.set({
 		'settings' : settings
 	});
-	e.preventDefault();
-
+	
+	window.location.reload(); 
+	
 	return;
 }
 

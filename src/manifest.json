@@ -2,7 +2,7 @@
 	"name": "Screen saver",
 	"manifest_version": 2,
 	"description": "Screen saver in WebExtensions offers three different animations inspired by the demoscene, one of which you can customize from the settings screen",
-	"version": "0.90",
+	"version": "0.91",
 	"author": "Christophe Villeneuve",
 	"icons": {
 		"48": "icons/screen-48.png",
@@ -23,7 +23,8 @@
 	"page_action": {
 		"default_title": "Screen Saver Settings",
 		"default_icon": "icons/icon2.png",
-		"default_popup": "page/popup.html"
+		"default_popup": "page/popup.html",
+	    "browser_style": true
 	},
 	"options_ui": {
 		"page": "options/options.html",

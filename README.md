@@ -113,9 +113,12 @@ In porting. The extension will be available soon
 
 ## Bug : Fullscreen
 
-When you check the 'fullscreen' box, the animation does not automatically switch to full screen mode. To see the animation in full screen, you must tap a key on your keyboard. You can take full advantage of the full screen by pressing the {F5} key on your keyboard.
+When you check the 'fullscreen' box, the animation does not automatically switch to full screen mode. To see the animation in full screen, you tap a key on your keyboard.
 
-The automatic execution of the effect is a concern of the Fullscreen API and the configuration of the permission that is not completely available.
+However, it is possible to fully enjoy the full screen, when the 'fullscreen' box is not checked by pressing the {F11} key on your keyboard followed by the {F5} key.
+
+The automatic execution of the 'fullscreen' effect is not supported with the Fullscreen API and in the WebExtensions permissions.
+
 
 ## Credit
 (c) Christophe Villeneuve aka Hello / Sector One
