@@ -108,7 +108,7 @@ En cours de portage. L'extension sera disponible prochainement
 En cours de portage. L'extension sera disponible prochainement
 
 
-## Bug : Fullscreen
+## Particuliarité : Fullscreen
 
 Quand vous cochez la case 'fullscreen', l'animation ne se déclange pas automatiquement en mode plein écran. Pour voir l'animation en plein écran, vous tapez sur une touche de votre clavier. 
 

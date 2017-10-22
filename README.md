@@ -111,7 +111,7 @@ In porting. The extension will be available soon
 In porting. The extension will be available soon
 
 
-## Bug : Fullscreen
+## Feature : Fullscreen
 
 When you check the 'fullscreen' box, the animation does not automatically switch to full screen mode. To see the animation in full screen, you tap a key on your keyboard.
 
