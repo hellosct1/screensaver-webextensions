@@ -5,12 +5,12 @@ Pour lire en Français : <a href='https://github.com/hellosct1/screensaver-webex
 
 ## Introduction
 
-The "Screen Saver WebExtensions" offers three different animations, inspired of the universe demoscene and one of them, you will be able to customize it from the settings screen. 
+The "Screen Saver" is a screen saver simulator that offers three different animations, inspired by the universe of the demoscene, one of which is customizable from the settings screen.
 
 
 ## Goal
 
-The purpose of the extension is to display an animated screen at any time, from your Firefox browser without having to lock your session.
+The purpose of the extension is to display an animated screen at any time, from your browser without having to lock your session.
 
 For this, a single button, represented by an icon, ![Screenshot](screenshots/icon.png "icône pour lancer l'animation") to launch the animation. It is positioned in the toolbar.
 

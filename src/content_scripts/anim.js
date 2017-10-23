@@ -7,7 +7,7 @@ function onGot(item) {
 	if (typeof (item.settings) != 'undefined'
 			&& item.settings['fullscreen'] == true) {
 
-//		console.log('Welcome Fullscreen');
+		// console.log('Welcome Fullscreen');
 		/*
 		 * TODO : Update addEventListener Bug permission Fullscreen in the
 		 * WebExtensions
@@ -44,6 +44,5 @@ function onGot(item) {
 		}
 	}
 }
+browser.storage.local.get('settings').then(onGot, onError);
 
-var gettingItem = browser.storage.local.get([ 'settings' ]);
-gettingItem.then(onGot, onError);
