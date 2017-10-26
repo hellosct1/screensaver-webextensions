@@ -22,8 +22,8 @@ function init() {
 	settings['textanim'] = 'SECTOR';
 	settings['message'] = scrollText;
 	settings['effet'] = 'oldschool';
-	settings['sprite'] = 'true';
-	settings['fullscreen'] = 'false';
+	settings['sprite'] = true;
+	settings['fullscreen'] = false;
 
 	browser.storage.local.set({"settings" : settings});
 	window.location.reload();
